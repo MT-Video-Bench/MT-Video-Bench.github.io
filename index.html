@@ -199,7 +199,7 @@
           The recent development of Multimodal Large Language Models (MLLMs) has significantly advanced AI's ability to understand visual modalities. 
           However, existing evaluation benchmarks remain limited to single-turn question answering, overlooking the complexity of multi-turn dialogues in real-world scenarios. 
           To bridge this gap, we introduce MT-Video-Bench, a holistic video understanding benchmark for evaluating MLLMs in multi-turn dialogues. 
-          Specifically, our MT-Video-Bench mainly assesses six core competencies that focus on perceptivity and interactivity, encompassing 987 meticulously curated multi-turn dialogues from diverse domains. 
+          Specifically, our MT-Video-Bench mainly assesses six core competencies that focus on perceptivity and interactivity, encompassing 1000 meticulously curated multi-turn dialogues from diverse domains. 
           These capabilities are rigorously aligned with real-world applications, such as interactive sports analysis and multi-turn video-based intelligent tutoring. 
           With MT-Video-Bench, we extensively evaluate various state-of-the-art open-source and closed-source MLLMs, revealing their significant performance discrepancies and limitations in handling multi-turn video dialogues. 
           <!-- The benchmark will be publicly available to foster future research. -->
@@ -530,7 +530,55 @@
                 <td style="vertical-align: middle;">44.66</td>
               </tr>
 
-          </tbody>                                                   
+              <tr>
+                <td style="vertical-align: middle;"></td>
+                <td style="text-align: left; padding: 2px 10px;"><b class=""><span class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen3-VL-4B-Thinking</span></b></td>
+                <td style="vertical-align: middle;">62.96</td>
+                <td style="vertical-align: middle;">52.18</td>
+                <td style="vertical-align: middle;">55.26</td>
+                <td style="vertical-align: middle;">91.37</td>
+                <td style="vertical-align: middle;">41.67</td>
+                <td style="vertical-align: middle;">72.00</td>
+                <td style="vertical-align: middle;">65.31</td>
+              </tr>
+
+              <tr>
+                <td style="vertical-align: middle;"></td>
+                <td style="text-align: left; padding: 2px 10px;"><b class=""><span class="ext-link" style="font-size: 16px; margin-left: 5px;">Qwen3-VL-4B-Instruct</span></b></td>
+                <td style="vertical-align: middle;">59.15</td>
+                <td style="vertical-align: middle;">49.29</td>
+                <td style="vertical-align: middle;">46.74</td>
+                <td style="vertical-align: middle;">83.66</td>
+                <td style="vertical-align: middle;">52.99</td>
+                <td style="vertical-align: middle;">65.34</td>
+                <td style="vertical-align: middle;">56.88</td>
+              </tr>
+
+              <tr>
+                <td style="vertical-align: middle;"></td>
+                <td style="text-align: left; padding: 2px 10px;"><b class=""><span class="ext-link" style="font-size: 16px; margin-left: 5px;">InternVL3.5-4B (Think)</span></b></td>
+                <td style="vertical-align: middle;">54.58</td>
+                <td style="vertical-align: middle;">47.80</td>
+                <td style="vertical-align: middle;">45.02</td>
+                <td style="vertical-align: middle;">70.52</td>
+                <td style="vertical-align: middle;">31.82</td>
+                <td style="vertical-align: middle;">62.39</td>
+                <td style="vertical-align: middle;">69.96</td>
+              </tr>
+
+              <tr>
+                <td style="vertical-align: middle;"></td>
+                <td style="text-align: left; padding: 2px 10px;"><b class=""><span class="ext-link" style="font-size: 16px; margin-left: 5px;">InternVL3.5-4B (No Think)</span></b></td>
+                <td style="vertical-align: middle;">49.50</td>
+                <td style="vertical-align: middle;">41.87</td>
+                <td style="vertical-align: middle;">40.31</td>
+                <td style="vertical-align: middle;">60.56</td>
+                <td style="vertical-align: middle;">28.14</td>
+                <td style="vertical-align: middle;">55.71</td>
+                <td style="vertical-align: middle;">70.43</td>
+              </tr>
+
+          </tbody>
         </table> 
 
         <!-- <p style="margin-top: -20px;">
